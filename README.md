@@ -11,3 +11,5 @@ change into outer mysite directory `cd mysite`
 start server `python manage.py runserver`
 
 create polls app `python manage.py startapp polls`
+
+add view by editting `views.py` in `mysite/polls/views.py`
