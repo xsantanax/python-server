@@ -9,3 +9,5 @@ start project with `django-admin startproject mysite`
 change into outer mysite directory `cd mysite`
 
 start server `python manage.py runserver`
+
+create polls app `python manage.py startapp polls`
