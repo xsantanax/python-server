@@ -16,3 +16,5 @@ add view by editting `views.py` in `mysite/polls/views.py`
 add url path by creating and editting `urls.py` in `mysite/polls/urls.py`
 
 point root URLConfig (`mysite/mysite/urls.py`) at `polls.urls` module
+
+update timezone in `mysite/mysite/settings.py`
