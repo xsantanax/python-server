@@ -20,3 +20,5 @@ point root URLConfig (`mysite/mysite/urls.py`) at `polls.urls` module
 update timezone in `mysite/mysite/settings.py`
 
 run `python manage.py migrate` from outer mysite (creates the necessary database tables according to the database settings in your mysite/settings.py)
+
+add db models in `mysite/polls`
