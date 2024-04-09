@@ -13,3 +13,5 @@ start server `python manage.py runserver`
 create polls app `python manage.py startapp polls`
 
 add view by editting `views.py` in `mysite/polls/views.py`
+
+add url path by creating and editting `urls.py` in `mysite/polls/urls.py`
