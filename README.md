@@ -24,3 +24,5 @@ run `python manage.py migrate` from outer mysite (creates the necessary database
 add db models in `mysite/polls`
 
 add `'polls.apps.PollsConfig'` to `INSTALLED_APPS` in `mysite/settings` (includes app in the project)
+
+since models changed, run `python manage.py makemigrations polls` to update
