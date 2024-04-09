@@ -22,3 +22,5 @@ update timezone in `mysite/mysite/settings.py`
 run `python manage.py migrate` from outer mysite (creates the necessary database tables according to the database settings in your mysite/settings.py)
 
 add db models in `mysite/polls`
+
+add `'polls.apps.PollsConfig'` to `INSTALLED_APPS` in `mysite/settings` (includes app in the project)
